@@ -1,0 +1,36 @@
+﻿@model List<string>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>ActiveMQ Messages</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif; margin: 20px; 
+            }
+            .message-box {
+                border: 1px solid #ddd; padding: 15px; margin: 10px 0; border-radius: 8px; background-color: #f8f9fa; box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .header{ color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px;}
+        </style>
+    </head>
+    <body>
+        <h1 class="header">Mensajes Recibidos</h1>
+
+@if (Model == null)
+{
+    <p style="color: red"> El modelo es nulo</p>
+}
+else if (!Model.Any())
+{
+    <p>No hay mensajes (la lista está vacía)</p>
+}
+else
+{
+    @foreach (var msg in Model)
+    {
+        <div class="message-box">@msg</div>
+    }
+}
+    </body>
+    </html>

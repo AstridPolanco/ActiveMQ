@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveMQ", "ActiveMQ.csproj", "{B1B79AD7-2E6F-E78F-ADA3-CA685021942E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1B79AD7-2E6F-E78F-ADA3-CA685021942E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B79AD7-2E6F-E78F-ADA3-CA685021942E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B79AD7-2E6F-E78F-ADA3-CA685021942E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B79AD7-2E6F-E78F-ADA3-CA685021942E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82D5E450-BBC2-47E8-A8BD-B2F59FF6DB08}
+	EndGlobalSection
+EndGlobal
